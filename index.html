@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Progra-Mates</title>
 </head>
@@ -16,18 +17,43 @@
     <!-- Barra de Navegacion - Inicio-->
     <Nav class="navegacion">
         <div class="logo_container">
-            <img src="img/silueta_mate_imagen-transformed.png" alt="Logotipo Olaf-Mates"class="logo">
-            <span>Progra-Mates</span>
-        </div> 
-        <ul class="navegacion_nav">
-            <li class="nav_item"><a href="./index.html">Home</a></li>
-            <li class="nav_item"><a href="./html/Productos.html">Productos</a></li>
-            <li class="nav_item"><a href="./html/Accesorios.html">Accesorios</a></li>
-            <li class="nav_item"><a href="./html/Nosotros.html">Nosotros</a></li>
-            <li class="nav_item"><a href="./html/Contacto.html">Contacto</a></li>
-        </ul>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <img src="../img/silueta_mate_imagen-transformed.png" alt="Logotipo Olaf-Mates"class="logo">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Progra-Mates</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                 <li class="nav-item">
+                   <a class="nav-link active" aria-current="page" href="/html/Productos.html">Productos</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="/html/Accesorios.html">Accesorios</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="/html/Nosotros.html">Nosotros</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="/html/Contacto.html">Contacto</a>
+                 </li>
+                 <!-- <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="./Contacto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Contacto
+                   </a> -->
+                   <!-- <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Action</a></li>
+                     <li><a class="dropdown-item" href="#">Another action</a></li>
+                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                   </ul> -->
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </nav>
         
-    </Nav>
+   
     <!-- Barra de Navegacion - Fin-->
 
     </header>
@@ -58,6 +84,7 @@
     <br><br><br>
     <a href="#top">Volver arriba</a>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.js"></script>
 </body>
 
