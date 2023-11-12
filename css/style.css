@@ -49,8 +49,28 @@ text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
 box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
 
 } 
+
+/* Instructivo */
+.como_mate { 
+   width: 100%;
+   display: grid;
+   padding: 2rem ;
+   height: 100%;
+   margin-left: 10%;
+   display: grid;
+   gap: 0.5rem;
+   grid-template-columns: repeat(2, 1fr);
+   
+}
+.card-body {
+   width: 100%;
+   color: white;
+
+}
+
 /* Video */
- .video {
+ 
+.video {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -185,6 +205,9 @@ box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
    .conteiner_productos {
       grid-template-columns: repeat(2, 1fr);
   }
+  .como_mate {
+      grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 
@@ -194,4 +217,8 @@ box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
    .conteiner_productos {
        grid-template-columns: repeat(1, 1fr);
    }
+   .como_mate {
+      grid-template-columns: repeat(1, 1fr);
+  }
+
 }
