@@ -4,32 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/Icono silueta mate.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Progra-Mates</title>
 </head>
 <body>
 <header id="top">
       <!-- Barra de Navegacion - Inicio-->
-      <Nav class="navegacion">
-        <div class="logo_container">
-            <img src="../img/silueta_mate_imagen-transformed.png" alt="Logotipo Olaf-Mates"class="logo">
-         <span>Progra-Mates</span>
-        </div> 
-         <ul class="navegacion_nav">
-             <li class="nav_item"><a href="../index.html">Home</a></li>
-             <li class="nav_item"><a href="../html/Productos.html">Productos</a></li>
-             <li class="nav_item"><a href="../html/Accesorios.html">Accesorios</a></li>
-             <li class="nav_item"><a href="../html/Nosotros.html">Nosotros</a></li>
-             <li class="nav_item"><a href="../html/Contacto.html">Contacto</a></li>
-         </ul>
-         
-     </Nav>
+      <div class="logo_container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <img src="../img/silueta_mate_imagen-transformed.png" alt="Logotipo Olaf-Mates"class="logo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Progra-Mates</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="./Productos.html">Productos</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./Accesorios.html">Accesorios</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./Contacto.html">Contacto</a>
+             </li>
+             <!-- <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="./Contacto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Contacto
+               </a> -->
+               <!-- <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="#">Action</a></li>
+                 <li><a class="dropdown-item" href="#">Another action</a></li>
+                 <li><a class="dropdown-item" href="#">Something else here</a></li>
+               </ul> -->
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
      <!-- Barra de Navegacion - Fin-->
 </header>
-
-<h2 class="titulo_contacto"> Contacto </h2>
+<div class="zona_container">
+<h2 class="zona_mantenimiento"> Zona en mantenimiento, disculpe las molestias</h2>
+</div>
+<!-- <h2 class="titulo_contacto"> Contacto </h2> -->
 <!-- Contenido - Inicio -->
-<section class="formulario">
+<!-- <section class="formulario">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ut praesentium officia dolor. Et, ratione atque vel ducimus ex voluptate ea molestias magni, nihil similique quo officiis? Quia, ipsum nihil!
     Quos voluptatum repellat necessitatibus enim ea, nulla voluptates quasi distinctio modi et, itaque dignissimos quisquam ipsa odio eius ducimus iusto expedita quaerat illo at. Optio, quae ad. Quisquam, doloremque temporibus?
     Esse perferendis est cupiditate ea iure praesentium. Possimus modi, similique, suscipit cupiditate, laborum quibusdam animi sed aperiam ea voluptatum perspiciatis pariatur ullam ipsum corrupti atque fugiat amet reprehenderit dolor distinctio?
@@ -41,10 +66,10 @@
     Consequatur eaque iusto, deleniti repudiandae excepturi vel, repellat aut consectetur doloremque quaerat aliquid, dolorum error assumenda ab commodi quam eos blanditiis placeat cum odit perferendis adipisci quibusdam dolore. Veniam, dolorum.
     Architecto deleniti iure asperiores illum maiores similique tempora repellendus quos rerum dolore dicta totam iste numquam porro eum expedita mollitia voluptate a optio aperiam perspiciatis, soluta animi amet at. Nulla!</p>
 
-</section>
+</section> -->
 <br><br><br><br><br>
 <!-- Preguntas FAQ´s - Inicio -->
-<section class="preguntas">
+<!-- <section class="preguntas">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eum totam amet error ipsa. Molestiae accusamus, ipsum et, maxime cupiditate ullam omnis beatae excepturi repellat exercitationem molestias tenetur eaque ab.</p>
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, dicta debitis? Quos, ab illum blanditiis id veritatis aliquam suscipit quisquam deleniti nemo eos numquam ipsum, minima totam, tenetur accusantium laboriosam!</p>
@@ -52,7 +77,7 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sint esse fugiat numquam possimus aperiam error voluptate distinctio voluptatum qui recusandae ipsa doloribus sapiente amet at assumenda! Sint, nostrum officiis!</p>
 
 
-</section>
+</section> -->
 <!-- Preguntas FAQ´s - Fin -->
 
 <!-- Imagen de abajo del todo-->
@@ -60,13 +85,13 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.js"></script>
 
-
-    <a href="#top">Volver arriba</a>
+    <a  href="#top"><button class="boton_abajo">Volver arriba</button></a>
 </body>
 
 <footer>
-
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam fugiat esse excepturi minus dolor 
+    <p>DW/CH - todos los derechos reservados - 2023</p>
 </footer>
 </html>
