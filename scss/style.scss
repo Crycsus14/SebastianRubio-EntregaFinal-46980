@@ -58,6 +58,7 @@ box-shadow: 1px 1px 5px rgb(63, 72, 30);
    box-shadow: 1px 1px 5px rgb(63, 72, 30);
 }
 /* Instructivo */
+
 .como_mate { 
    width: 100%;
    display: grid;
@@ -67,12 +68,11 @@ box-shadow: 1px 1px 5px rgb(63, 72, 30);
    display: grid;
    gap: 0.5rem;
    grid-template-columns: repeat(2, 1fr);
-   
 }
 .card-body {
    width: 100%;
    color: white;
-   
+   padding: 16px;
 }
 
 /* Video */
@@ -241,8 +241,11 @@ footer{
    color: white;
 }
 
-
-
+/*estilos de la pagina "nosotros" */
+.carousel-nosotros{
+   height: 300px;
+   width: 600px;
+}
 
 
 
