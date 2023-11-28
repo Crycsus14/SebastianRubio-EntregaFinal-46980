@@ -215,6 +215,10 @@ body {
   color: white;
 }
 
+.card-text {
+  font-size: 0.8rem;
+}
+
 .boton_abajo {
   border-radius: 4px;
   font-size: 20px;
