@@ -1,6 +1,8 @@
  *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
  }
@@ -102,7 +104,10 @@ box-shadow: 1px 1px 5px rgb(63, 72, 30);
 }
 
  body{
-    background-color: rgba(19, 18, 18, 0.849);
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background-color: rgba(19, 18, 18, 0.849);
  }
  /* footer{
     width: 100%;

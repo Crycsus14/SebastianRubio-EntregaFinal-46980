@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+ }
+ html{
+
+ }
+ /* nav.navegacion{
+    width: 100%;
+    background-color: rgb(63, 72, 30);
+    display:flex;
+    justify-items: center space-between;
+    align-items: center;
+    align-self:flex-end; */
+
+ /* }
+  */
+ .navegacion .logo_container{
+     
+}
+
+.logo_container .logo {
+    width: 40px;
+    height:100% ;
+ }
+
+ .logo_container span{
+    font-size: 2rem;
+    font-weight: 700px;
+
+ }
+.navegacion_nav .nav_item{
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    position: relative;
+
+ }
+
+/* Fin NAV */
+/* Titulo */
+.titulo {
+text-align: center;
+font-size: 150px; 
+color:rgb(63, 72, 30);
+text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+box-shadow: 1px 1px 5px rgb(63, 72, 30);
+
+} 
+.intro_index {
+   text-align: center;
+   color: white;
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+   box-shadow: 1px 1px 5px rgb(63, 72, 30);
+}
+/* Instructivo */
+.como_mate { 
+   width: 100%;
+   display: grid;
+   padding: 2rem ;
+   height: 100%;
+   margin-left: 10%;
+   display: grid;
+   gap: 0.5rem;
+   grid-template-columns: repeat(2, 1fr);
+   
+}
+.card-body {
+   width: 100%;
+   color: white;
+   
+}
+
+/* Video */
+ 
+.video {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+}
+.contenedor-video {
+   text-align: center;
+}
+.titulo_video {
+   color: white;
+   font-size: large bold;
+   text-align: center;
+}
+
+.boton_video{
+   border-radius: 4px;
+   font-size: 20px;
+   transition-duration: 0.4s;
+}
+
+.boton_video:hover {
+  background-color: rgb(63, 72, 30); 
+  color: white;
+}
+
+ body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background-color: rgba(19, 18, 18, 0.849);
+ }
+ /* footer{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: auto;
+    background-color:rgb(63, 72, 30) ;
+ } */
+ .mates {
+    border: 1px solid;
+    
+
+ }
+ .formulario {
+   border: 1px solid black;
+   justify-items: auto;
+   width: 80% ;
+   height: 200px;
+   overflow: auto;
+   background-color: rgb(180, 180, 180);
+   
+ }
+ .preguntas {
+   border: 1px solid black;
+   justify-items: auto;
+   width: 80% ;
+   height: 100px;
+   overflow: auto;
+   background-color: rgb(180, 180, 180);
+ }
+
+ .texto_yerba {
+   border: 1px solid black;
+   justify-items: auto;
+   width: 80% ;
+   height: 50px;
+   overflow: auto;
+   background-color: rgb(180, 180, 180);
+ }
+ .nuestra_historia {
+   border: 1px solid black;
+   justify-items: auto;
+   width: 80% ;
+   height: 50px;
+   overflow: auto;
+   background-color: rgb(180, 180, 180);
+  }
+/* Zona en mantenimento - temporal */
+.zona_container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 150px;
+   color: white;
+}
+
+ /* seccion de productos */
+ .titulo_mates{
+   
+   font-size:  5rem;
+   text-decoration: solid;
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+   color: rgb(63, 72, 30);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ /* Grid para las cards */
+ .conteiner_productos{
+   width: 100%;
+   padding: 2rem ;
+   height: 100%;
+   margin-left: 8%;
+   display: grid;
+   gap: 0.5rem;
+   grid-template-columns: repeat(3, 1fr);
+ }
+
+  /* estlilo de las card */
+.card{
+   width: 50%;
+   height: 400px;
+   background-color: rgb(63, 72, 30);
+   border-radius: 5px;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+   
+   
+}
+.card img{
+   border-radius: 5px 5px 0 0;
+   width: 100%;
+   height: 350px;
+   object-fit:cover;
+}
+.card .card_container {
+   width: 100%;
+   padding: 10px;
+   font-size: .80rem;
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: space-between;
+   
+}
+.card .content_card{
+   display: flex;
+   justify-content:flex-start;
+   align-items:center;
+   font-size: 1rem;
+   color: white;
+}
+
+.boton_abajo {
+   border-radius: 4px;
+   font-size: 20px;
+   transition-duration: 0.4s;
+
+}
+.boton_abajo:hover {
+   background-color: rgb(63, 72, 30); 
+   color: white;
+ }
+/* Iconos del Footer */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background-color:rgb(63, 72, 30) ;
+   padding: 100px 0px;
+   text-decoration: solid;
+   color: white;
+}
+
+
+
+
+
+
+
+@media (max-width:768px) {
+   .conteiner_productos {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .como_mate {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .titulo {
+   text-align: center;
+   font-size: 80px; 
+   color:rgb(63, 72, 30);
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+   box-shadow: 1px 1px 5px rgb(63, 72, 30);
+
+  }
+}
+
+
+
+
+@media (max-width:475px) {
+   .conteiner_productos {
+       grid-template-columns: repeat(1, 1fr);
+   }
+   .como_mate {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .titulo {
+   text-align: center;
+   font-size: 55px; 
+   color:rgb(63, 72, 30);
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+   box-shadow: 1px 1px 5px rgb(63, 72, 30);
+  }
+
+}
