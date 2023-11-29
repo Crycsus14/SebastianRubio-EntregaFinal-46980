@@ -147,26 +147,18 @@ box-shadow: 1px 1px 5px rgb(63, 72, 30);
    overflow: auto;
    background-color: rgb(180, 180, 180);
  }
- .nuestra_historia {
-   border: 1px solid black;
-   justify-items: auto;
-   width: 80% ;
-   height: 50px;
-   overflow: auto;
-   background-color: rgb(180, 180, 180);
-  }
-/* Zona en mantenimento - temporal */
-.zona_container{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-size: 150px;
-   color: white;
-}
-
- /* seccion de productos */
- .titulo_mates{
+ /* Zona en mantenimento - temporal */
+ .zona_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    color: white;
+   }
    
+   /* seccion de productos */
+   .titulo_mates{
+      
    font-size:  5rem;
    text-decoration: solid;
    text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
@@ -175,9 +167,9 @@ box-shadow: 1px 1px 5px rgb(63, 72, 30);
    display: flex;
    justify-content: center;
    align-items: center;
- }
- /* Grid para las cards */
- .conteiner_productos{
+}
+/* Grid para las cards */
+.conteiner_productos{
    width: 100%;
    padding: 2rem ;
    height: 100%;
@@ -185,11 +177,11 @@ box-shadow: 1px 1px 5px rgb(63, 72, 30);
    display: grid;
    gap: 0.5rem;
    grid-template-columns: repeat(3, 1fr);
- }
+}
 
   /* estlilo de las card */
-.card{
-   width: 50%;
+  .card{
+     width: 50%;
    height: 400px;
    background-color: rgb(63, 72, 30);
    border-radius: 5px;
@@ -224,31 +216,69 @@ box-shadow: 1px 1px 5px rgb(63, 72, 30);
    border-radius: 4px;
    font-size: 20px;
    transition-duration: 0.4s;
-
+   
 }
 .boton_abajo:hover {
    background-color: rgb(63, 72, 30); 
    color: white;
- }
+}
 /* Iconos del Footer */
 footer{
-  display: flex;
-  align-items: center;
+   display: flex;
+   align-items: center;
   justify-content: center;
-   background-color:rgb(63, 72, 30) ;
+  background-color:rgb(63, 72, 30) ;
    padding: 100px 0px;
    text-decoration: solid;
    color: white;
 }
 
 /*estilos de la pagina "nosotros" */
+.carousel_container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .carousel-nosotros{
-   height: 300px;
+   
+   height: 400px;
    width: 600px;
 }
+.nuestra_historia {
+  
+  text-align: center;
+  margin-top: 20px;
+  font-style:oblique;
+  font-weight: bold;
+  font-size: 1rem;
+  gap: 5px;
+  color:rgb(63, 72, 30);
+  background-color: beige;
+  width: 100% ;
+  height:fit-content;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+ }
 
 
+@media (max-width: 1100px) {
+   .conteiner_productos {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .como_mate {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .titulo {
+   text-align: center;
+   font-size: 80px; 
+   color:rgb(63, 72, 30);
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+   box-shadow: 1px 1px 5px rgb(63, 72, 30);
 
+  }
+  
+
+
+}
 
 @media (max-width:768px) {
    .conteiner_productos {
@@ -264,6 +294,10 @@ footer{
    text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
    box-shadow: 1px 1px 5px rgb(63, 72, 30);
 
+  }
+  .nuestra_historia{
+   gap: 0;
+   margin-top: 0;
   }
 }
 

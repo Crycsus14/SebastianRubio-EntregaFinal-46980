@@ -65,6 +65,7 @@
 .card-body {
   width: 100%;
   color: white;
+  padding: 16px;
 }
 
 /* Video */
@@ -141,15 +142,6 @@ body {
   background-color: rgb(180, 180, 180);
 }
 
-.nuestra_historia {
-  border: 1px solid black;
-  justify-items: auto;
-  width: 80%;
-  height: 50px;
-  overflow: auto;
-  background-color: rgb(180, 180, 180);
-}
-
 /* Zona en mantenimento - temporal */
 .zona_container {
   display: flex;
@@ -215,10 +207,6 @@ body {
   color: white;
 }
 
-.card-text {
-  font-size: 0.8rem;
-}
-
 .boton_abajo {
   border-radius: 4px;
   font-size: 20px;
@@ -241,6 +229,47 @@ footer {
   color: white;
 }
 
+/*estilos de la pagina "nosotros" */
+.carousel_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-nosotros {
+  height: 400px;
+  width: 600px;
+}
+
+.nuestra_historia {
+  text-align: center;
+  margin-top: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1rem;
+  gap: 5px;
+  color: rgb(63, 72, 30);
+  background-color: beige;
+  width: 100%;
+  height: fit-content;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 1100px) {
+  .conteiner_productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .como_mate {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .titulo {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(63, 72, 30);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.45);
+    box-shadow: 1px 1px 5px rgb(63, 72, 30);
+  }
+}
 @media (max-width: 768px) {
   .conteiner_productos {
     grid-template-columns: repeat(2, 1fr);
@@ -254,6 +283,10 @@ footer {
     color: rgb(63, 72, 30);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.45);
     box-shadow: 1px 1px 5px rgb(63, 72, 30);
+  }
+  .nuestra_historia {
+    gap: 0;
+    margin-top: 0;
   }
 }
 @media (max-width: 475px) {
