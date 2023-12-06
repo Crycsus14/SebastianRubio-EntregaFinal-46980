@@ -5,16 +5,7 @@
 html{
 
 }
-/* nav.navegacion{
-   width: 100%;
-   background-color: rgb(63, 72, 30);
-   display:flex;
-   justify-items: center space-between;
-   align-items: center;
-   align-self:flex-end; */
-   
-   /* }
-   */
+
    .navegacion .logo_container{
       
    }
@@ -101,15 +92,89 @@ body{
    
    
 }
-.formulario {
-   border: 1px solid black;
-   justify-items: auto;
-   width: 80% ;
-   height: 200px;
-   overflow: auto;
-   background-color: rgb(180, 180, 180);
+/* Formulario  - Contacto */
+
+ 
+ .formulario-container {
+   max-width: 700px;
+   margin: 30px;
+   background-color:rgb(63, 72, 30);
+   padding: 30px;
+   border-left: 5px solid white;
+   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+ }
+ 
+ .encabezado-form {
+   display: block;
+   color: white;
+   font-size: 1.5rem;
+   font-weight: 800;
+   margin-bottom: 20px;
+ }
+ 
+ .formulario-container .formulario .input {
+   color: white;
+   width: 100%;
+   background-color: rgb(157, 179, 79);
+   border: none;
+   outline: none;
+   padding: 10px;
+   margin-bottom: 20px;
+   font-weight: bold;
+   transition: all 0.2s ease-in-out;
+   border-left: 1px solid transparent;
+ }
+ 
+ .formulario-container .formulario .input:focus {
+   border-left: 5px solid white;
+ }
+ 
+ .formulario-container .formulario .area-texto {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   outline: none;
+   background-color: rgb(157, 179, 79);
+   color: white;
+   font-weight: bold;
+   resize: none;
+   max-height: 150px;
+   margin-bottom: 20px;
+   border-left: 1px solid transparent;
+   transition: all 0.2s ease-in-out;
+ }
+ 
+ .formulario-container .formulario .area-texto:focus {
+   border-left: 5px solid white;
+ }
+ 
+ .formulario-container .formulario .boton-container {
+   display: flex;
+   gap: 10px;
+ }
+ 
+ .formulario-container .formulario .boton-container .send-boton {
+   flex-basis: 70%;
+   background: white;
+   padding: 10px;
+   color: #001925;
+   text-align: center;
+   font-weight: bold;
+   border: 1px solid transparent;
+   transition: all 0.2s ease-in-out;
+ }
+ 
+ .formulario-container .formulario .boton-container .send-boton:hover {
+   background: transparent;
+   border: 1px solid  rgb(157, 179, 79);
+   color:  rgb(157, 179, 79);
    
-}
+ }
+ 
+ 
+ 
+/*Fin formulario*/
+
 .preguntas {
    border: 1px solid black;
    justify-items: auto;
