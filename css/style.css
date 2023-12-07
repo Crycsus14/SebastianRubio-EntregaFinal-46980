@@ -289,10 +289,10 @@ body {
   margin-top: 20px;
   font-style: oblique;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   gap: 5px;
-  color: rgb(63, 72, 30);
-  background-color: beige;
+  color: white;
+  background-color: transparent;
   width: 100%;
   height: fit-content;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.45);
@@ -320,6 +320,11 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .nuestra_historia {
+    gap: 0;
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 768px) {
   .conteiner_productos {
@@ -346,6 +351,7 @@ body {
   .nuestra_historia {
     gap: 0;
     margin-top: 0;
+    font-size: 1rem;
   }
 }
 @media (max-width: 475px) {
