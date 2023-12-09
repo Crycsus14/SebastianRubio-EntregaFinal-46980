@@ -5,44 +5,59 @@
 
 
 html{
+   
+}
+
+
+
+/* Fin NAV */
+
+/* Titulo */
+.imagen-titulo{
+   background-image: url(../img/yerba-suelta.webp);
+   background-size:contain;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   font-size: 10rem;
+   font-weight: bold;
+   text-decoration: solid;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.74);
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
- 
 
-   
-   /* Fin NAV */
-   /* Titulo */
-   .titulo {
-      text-align: center;
-      font-size: 150px; 
-      color:rgb(63, 72, 30);
-      text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
-      box-shadow: 1px 1px 5px rgb(63, 72, 30);
-      
-   } 
-   .intro_index {
+
+.section_home .intro_index {
+      padding: 50px 20px;
       text-align: center;
       color: white;
       text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
       box-shadow: 1px 1px 5px rgb(63, 72, 30);
    }
+
    /* Instructivo */
    
-   .como_mate { 
-      width: 100%;
-      display: grid;
-      padding: 2rem ;
-      height: 100%;
-      margin-left: 10%;
-      display: grid;
-      gap: 0.5rem;
-      grid-template-columns: repeat(2, 1fr);
-   }
-   .card-body {
-      width: 100%;
-      color: white;
-      padding: 16px;
-   }
+
+
+
+   // .como_mate { 
+   //    width: 100%;
+   //    display: grid;
+   //    padding: 2rem ;
+   //    height: 100%;
+   //    margin-left: 10%;
+   //    display: grid;
+   //    gap: 0.5rem;
+   //    grid-template-columns: repeat(2, 1fr);
+   // }
+   // .card-body {
+   //    width: 100%;
+   //    color: white;
+   //    padding: 16px;
+   // }
    
    /* Video */
    
@@ -69,11 +84,9 @@ body{
    background-color: rgba(19, 18, 18, 0.849);
 }
 
-.mates {
-   border: 1px solid;
-   
-   
-}
+
+
+
 /* Formulario  - Contacto */
 
  
@@ -169,27 +182,6 @@ body{
 }
 
 
-.imagen-titulo{
-   background-image: url(../img/yerba-suelta.webp);
-   background-size:contain;
-   background-clip: text;
-   -webkit-background-clip: text;
-   color: transparent;
-   font-size: 10rem;
-   font-weight: bold;
-   text-decoration: solid;
-   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.74);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-}
-/* seccion de productos */
-.titulo_mates{
-   
-   font-size:  5rem;
-   color: rgb(63, 72, 30);
-}
 /* Grid para las cards */
 .conteiner_productos{
    width: 100%;
@@ -201,7 +193,7 @@ body{
    grid-template-columns: repeat(3, 1fr);
 }
 
-/* estlilo de las card */
+/* estlilo de las card - productos / accesorios */
 .card{
    width: 50%;
    height: 400px;
