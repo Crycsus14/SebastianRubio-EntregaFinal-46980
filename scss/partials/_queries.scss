@@ -25,7 +25,13 @@
     margin-top: 0;
     font-size: 1.5rem;
    }
- 
+   .pie_pagina{
+    display: block;
+   }
+   .derechos-footer{
+    font-size: 1rem;
+    justify-content: center;
+   }
  
  }
  
@@ -91,6 +97,12 @@
    .encontranos{
     font-size: 1.5rem;
    }
+   .card-redes{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    
+   }
  }
  
  
@@ -152,4 +164,5 @@
    .encontranos{
     font-size: 1.3rem;
    }
+   
  }
