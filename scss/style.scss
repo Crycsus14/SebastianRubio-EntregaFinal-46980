@@ -337,6 +337,18 @@ section {
       box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
       
    }
+   /* Inicio estilos - Contacto*/
+   .encontranos{
+      color: white;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .map{
+      background-color: rgb(63, 72, 30);
+   }
+
    
    
    @import './partials/queries';
