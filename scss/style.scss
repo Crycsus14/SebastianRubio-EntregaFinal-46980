@@ -183,10 +183,11 @@ body{
 /* Inicio - estilos cards Index- Instructivo*/
 .contenedor-instructivo{
    display: flex;
+   flex-direction: column;
+   gap: 5px;
    align-items: center;
    justify-content: center;
    height: 100vh;
-  
    
 }
 .contenido-card{
@@ -204,13 +205,11 @@ body{
    box-shadow: 1px 1px 8px 8px rgba(63, 72, 30, 0.692);
    
 }
-.titulo-instructivo{
-   border-right: 1px solid #ddd;
+
+.titulo-instructivo{ 
    display: block;
    position: relative;
    width: 300vh;
-
-
 }
 .descripcion-instructivo{
    background-color: rgb(63, 72, 30);

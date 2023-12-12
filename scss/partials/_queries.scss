@@ -56,17 +56,21 @@
     margin-top: 0;
     font-size: 1rem;
    }
-   
+   /*estilos card instructivo*/
+   .contenedor-instructivo{
+    height: auto;
+   }
    .contenido-card{
    display: block;
-   width: 800px;
    background-color:rgb(63, 72, 30);
-   
+   width: 500px;
+   height: auto;
    }
    .contenido-card:hover .foto-card{
-    box-shadow: 1px 1px 8px 8px rgba(8, 8, 5, 0.692);}
-    
+    box-shadow: 1px 1px 8px 8px rgba(0, 0, 0, 0.692);}
+
    .titulo-instructivo{
+    
     width: auto;
     padding: 20px 20px 5px 20px;
     border:none;
@@ -77,6 +81,7 @@
     margin: 40px 0px 10px -15px;
    }
    .descripcion-instructivo{
+    
     background-color: white;
     color: black;
     width: 100%;
@@ -110,5 +115,36 @@
     justify-content: center;
     align-items: center;
    }
- 
+ /*estilos card instructivo*/
+ .contenedor-instructivo{
+    height: auto;
+   }
+   .contenido-card{
+   display: block;
+   background-color:rgb(63, 72, 30);
+   width: 400px;
+   height: auto;
+   }
+   .contenido-card:hover .foto-card{
+    box-shadow: 1px 1px 8px 8px rgba(0, 0, 0, 0.692);}
+
+   .titulo-instructivo{
+    
+    width: auto;
+    padding: 20px 20px 5px 20px;
+    border:none;
+    color: white;
+    
+   }
+   .foto-card{
+    margin: 40px 0px 10px -15px;
+   }
+   .descripcion-instructivo{
+    
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: 0;
+   }
+
  }
