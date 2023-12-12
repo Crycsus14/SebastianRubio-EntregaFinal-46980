@@ -184,7 +184,7 @@ body{
 .contenedor-instructivo{
    display: flex;
    flex-direction: column;
-   gap: 5px;
+   gap: 15px;
    align-items: center;
    justify-content: center;
    height: 100%;
@@ -257,6 +257,9 @@ body{
    box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
       
 }
+.card:hover{
+   box-shadow: 1px 1px 8px 8px rgba(3, 3, 2, 0.692);
+}
 .card img{
       border-radius: 5px 5px 0 0;
       width: 100%;
@@ -274,10 +277,13 @@ body{
    }
    .card .content_card{
       display: flex;
-      justify-content:flex-start;
+      justify-content:center;
       align-items:center;
       font-size: 1rem;
       color: white;
+   }
+   .content_card p{
+      text-align: center;
    }
 
    .card_container .texto_producto{
