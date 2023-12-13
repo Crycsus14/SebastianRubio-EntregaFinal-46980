@@ -489,7 +489,7 @@ section {
 }
 
 /* pag - error-404 */
-.error-404 {
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -497,7 +497,7 @@ section {
   color: white;
 }
 
-.titulo-error-404 .mensaje-error {
+.error-404 .titulo-error-404 .mensaje-error {
   color: white;
   justify-content: space-evenly;
 }
