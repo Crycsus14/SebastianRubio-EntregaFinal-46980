@@ -348,12 +348,15 @@ section {
    .map{
       background-color: rgb(63, 72, 30);
    }
+   /* pag - error-404 */
+
    .error-404{
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 1.2rem;
-      color: white
+      color: white;
+      
    }
    
    
