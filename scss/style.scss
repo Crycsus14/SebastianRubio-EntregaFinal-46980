@@ -350,13 +350,19 @@ section {
    }
    /* pag - error-404 */
 
-   .error-404{
+   .error-404 {
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 1.2rem;
       color: white;
+
+   }
+   .titulo-error-404 .mensaje-error {
+      color: white;
+      justify-content: space-evenly;
       
+
    }
    
    
